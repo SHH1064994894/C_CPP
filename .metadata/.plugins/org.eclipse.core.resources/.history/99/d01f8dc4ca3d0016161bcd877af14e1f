@@ -1,0 +1,37 @@
+package com.example.android_camera;
+
+import android.content.Context;
+import android.hardware.Camera;
+import android.view.Display;
+import android.view.SurfaceHolder;
+import android.view.WindowManager;
+
+public class SurfaceCallBack implements SurfaceHolder.Callback{
+
+	private Camera camera;
+	@Override
+	public void surfaceChanged(SurfaceHolder holder, int format, int width,
+			int height) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void surfaceCreated(SurfaceHolder holder) {
+//		try {
+//			camera = Camera.open();
+////			WindowManager wm = (WindowManager) getSystemService(Context.WINDOW_SERVICE);
+//			Display display = wm.getDefaultDisplay();//得到当前屏幕
+//			Camera.Parameters parameters =camera.getParameters();
+//		} catch (Exception e) {
+//			// TODO: handle exception
+//		}
+	}
+
+	@Override
+	public void surfaceDestroyed(SurfaceHolder holder) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

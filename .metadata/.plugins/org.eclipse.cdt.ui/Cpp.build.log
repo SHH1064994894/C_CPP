@@ -1,0 +1,23 @@
+
+**** Build of configuration Debug for project Cpp ****
+
+make all 
+Building file: ../src/01th_oop/person.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/01th_oop/person.d" -MT"src/01th_oop/person.d" -o "src/01th_oop/person.o" "../src/01th_oop/person.c"
+../src/01th_oop/person.c: In function ‘main’:
+../src/01th_oop/person.c:6:8: warning: unused variable ‘ls_name’ [-Wunused-variable]
+Finished building: ../src/01th_oop/person.c
+  char *ls_name ="lisi";
+ 
+        ^
+Building target: Cpp
+../src/01th_oop/person.c:5:8: warning: unused variable ‘zs_name’ [-Wunused-variable]
+Invoking: GCC C++ Linker
+  char *zs_name="zhangsan";
+g++  -o "Cpp"  ./src/01th_oop/person.o   
+        ^
+Finished building target: Cpp
+ 
+
+**** Build Finished ****
